@@ -30,18 +30,18 @@ const FEEDBACKS = [
 
 export function StudentsFeedback() {
   return (
-    <section className="px-8 py-36">
+    <section className="px-8 pt-36">
       <div className="container mx-auto">
         <div className="mb-16 flex flex-col items-center w-full">
           <Typography variant="h2" color="blue-gray" className="mb-2">
-            What Our Students Are Saying
+            Our Indusrty expert Instructors
           </Typography>
           <Typography
             variant="lead"
             className="mb-10 max-w-3xl lg:text-center !text-gray-500"
           >
             Our mission is to empower individuals with the knowledge and skills
-            they need to succeed in the world of web development. But don&apos;t
+            they need to succeed in the world of technology. But don&apos;t
             just take our word for it.
           </Typography>
         </div>

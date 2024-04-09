@@ -1,6 +1,11 @@
-import { Typography, Card, CardBody, CardHeader, Button } from "@material-tailwind/react";
+import {
+  Typography,
+  Card,
+  CardBody,
+  CardHeader,
+  Button,
+} from "@material-tailwind/react";
 import Image from "next/image";
-
 
 interface CourseCardProps {
   img: string;
@@ -8,9 +13,25 @@ interface CourseCardProps {
   title: string;
   desc: string;
   label: string;
+  days: string;
+  time: string;
+  mode: string;
+  seat: string;
+  duration: string;
 }
 
-export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
+export function CourseCard({
+  img,
+  tag,
+  title,
+  desc,
+  label,
+  time,
+  days,
+  mode,
+  seat,
+  duration,
+}: CourseCardProps) {
   return (
     <Card className="border">
       <CardHeader className="h-64">
@@ -32,16 +53,26 @@ export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
             {tag}
           </Typography>
         </div>
-        <a
-          href="#"
-          className="text-blue-gray-900 transition-colors hover:text-gray-900"
-        >
-          <Typography variant="h5" className="mb-2 normal-case">
-            {title}
-          </Typography>
-        </a>
-        <Typography className="mb-6 font-normal !text-gray-500">
+        <Typography variant="h5" className="mb-2 normal-case">
+          {title}
+        </Typography>
+        <Typography className="mb-1 font-normal !text-gray-500">
+          {duration}
+        </Typography>
+        <Typography className="mb-1 font-normal !text-gray-500">
           {desc}
+        </Typography>
+        <Typography className="mb-1 font-normal !text-gray-500">
+          {time}
+        </Typography>
+        <Typography className="mb-1 font-normal !text-gray-500">
+          {days}
+        </Typography>
+        <Typography className="mb-1 font-normal !text-gray-500">
+          {mode}
+        </Typography>
+        <Typography className="mb-5 font-normal !text-gray-500">
+          {seat}
         </Typography>
         <Button variant="outlined">{label}</Button>
       </CardBody>

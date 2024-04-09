@@ -19,10 +19,10 @@ function TrustedCompany() {
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
           <Typography variant="h6" className="mb-4 uppercase !text-gray-500">
-            AWESOME COMMUNITY
+            Partners
           </Typography>
           <Typography variant="h2" color="blue-gray" className="mb-12">
-            Trusted by over 200+ Companies
+            Our Parner Companies for the Campaign
           </Typography>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-10">

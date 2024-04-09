@@ -1,32 +1,28 @@
 "use client";
 
-import React from "react";
-import { Typography } from "@material-tailwind/react";
+import StatsCard from "@/components/stats-card";
 import {
-  DocumentTextIcon,
-  PlayCircleIcon,
   PencilSquareIcon,
   PhoneArrowDownLeftIcon,
+  UserIcon,
 } from "@heroicons/react/24/solid";
-
-import StatsCard from "@/components/stats-card";
-
+import { Typography } from "@material-tailwind/react";
 
 const STATS = [
+  // {
+  //   icon: DocumentTextIcon,
+  //   count: "200+",
+  //   title: "Students",
+  // },
   {
-    icon: DocumentTextIcon,
-    count: "10,200+",
-    title: "Students",
-  },
-  {
-    icon: PlayCircleIcon,
-    count: "50+",
-    title: "Instructors",
+    icon: UserIcon,
+    count: "10+",
+    title: "Industry Recognized Instructors",
   },
   {
     icon: PencilSquareIcon,
-    count: "10+",
-    title: "Courses",
+    count: "5",
+    title: "Industry Leading Courses",
   },
   {
     icon: PhoneArrowDownLeftIcon,
@@ -37,11 +33,11 @@ const STATS = [
 
 export function OutImpressiveStats() {
   return (
-    <section className="px-8 pt-60 mt-28">
+    <section className="px-8 pt-60 mt-32">
       <div className="container mx-auto text-center lg:text-left">
         <div className="grid place-items-center text-center">
           <Typography variant="h2" color="blue-gray" className="mb-2 text-4xl">
-            Explore Our Impressive Stats
+            Explore Our Course Stats
           </Typography>
           <Typography
             variant="lead"
@@ -51,7 +47,7 @@ export function OutImpressiveStats() {
             your success.
           </Typography>
         </div>
-        <div className="grid gap-y-16 gap-x-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-y-16 gap-x-10 md:grid-cols-2 lg:grid-cols-3">
           {STATS.map((props, key) => (
             <StatsCard key={key} {...props} />
           ))}

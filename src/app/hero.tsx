@@ -2,6 +2,7 @@
 
 import { Button, Card, Typography } from "@material-tailwind/react";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
@@ -11,7 +12,7 @@ function Hero() {
         height={1200}
         src="/image/uem.png"
         alt="bg-img"
-        priority = {true}
+        priority={true}
         className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
       />
       <div className="container mx-auto mt-28">
@@ -22,17 +23,32 @@ function Hero() {
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
             >
-              Summer School
+              Summer School 2024
             </Typography>
-            <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
+            <Typography variant="lead" className="mb-5 mt-6 !text-gray-900">
               Summer School Program of University of Engineering and Management,
               Kolkata. Embrace the school student to a new horizon of education.
             </Typography>
+            <Typography
+              variant="h3"
+              color="blue-gray"
+              className="lg:text-2xl !leading-snug text-xl lg:max-w-2xl mb-5"
+            >
+              May 2024 - June 2024
+            </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button color="gray">view all courses</Button>
-              {/* <Button color="gray" variant="outlined">
-                see pricing
-              </Button> */}
+              <Button color="blue">Enroll</Button>
+              <Button color="gray" variant="outlined">
+                <Link
+                  to="courses"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={1000}
+                >
+                  Explore courses
+                </Link>
+              </Button>
             </div>
           </Card>
         </div>
