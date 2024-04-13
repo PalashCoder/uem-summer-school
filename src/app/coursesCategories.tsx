@@ -5,7 +5,7 @@ import CATEGORIES from "@/data/categories";
 
 export function CoursesCategories() {
   return (
-    <section className="container mx-auto px-8 py-32">
+    <section className="container mx-auto px-8 py-20">
       <div className="mb-20 grid place-items-center text-center">
         <h1 className="my-3 text-4xl font-semibold">Courses Categories</h1>
         <h1 className="mx-auto w-full !text-gray-500 lg:w-6/12 text-xl">

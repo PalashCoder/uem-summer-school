@@ -1,6 +1,6 @@
 const COURSES = [
   {
-    img: "/image/blogs/blog4.svg",
+    img: "/image/uem.png",
     tag: "Prof. Srishti Dey • Mr. Subhasis Chakraborty",
     title: "Fundamentals of Industrial IoT (IIoT)",
     label: "INR 5,000",
@@ -12,7 +12,7 @@ const COURSES = [
     duration: "Duration: 1 month (Contact Hours: 36 Hrs)",
   },
   {
-    img: "/image/blogs/blog4.svg",
+    img: "/image/uem.png",
     tag: "Mr. Shehasis Banerjee • Prof. (Dr.) Ramen Pal",
     title: "Reinforcement & Deep Learning using Python",
     label: "INR 5,000",
@@ -24,7 +24,7 @@ const COURSES = [
     duration: "Duration: 1 month (Contact Hours: 24Hrs)",
   },
   {
-    img: "/image/blogs/blog4.svg",
+    img: "/image/uem.png",
     tag: "Dr. Arnab Paul • Mr. Deepjyoti Roy • Prof. (Dr.) Ramen Pal",
     title: "AI-based Recommendation System",
     label: "INR 5,000",
@@ -36,7 +36,7 @@ const COURSES = [
     duration: "Duration: 1 month (Contact Hours: 24Hrs)",
   },
   {
-    img: "/image/blogs/blog4.svg",
+    img: "/image/uem.png",
     tag: "Prof. Srishti Dey • Mr. Ajay Krishna N A",
     title: "Fundamental on Computer Forensics",
     label: "INR 5,000",
@@ -48,7 +48,7 @@ const COURSES = [
     duration: "Duration: 1 month (Contact Hours: 24 Hrs)",
   },
   {
-    img: "/image/blogs/blog4.svg",
+    img: "/image/uem.png",
     tag: "Prof. Anirban Ganguly • Mrs. Pooja Joshi",
     title:
       "Hands-on with InMemory Computing (IMC): A hardware level perspective",

@@ -11,7 +11,7 @@ interface CategoryCardProps {
 
 function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {
   return (
-    <Card className="relative grid min-h-[12rem] w-full overflow-hidden">
+    <section className="relative grid min-h-[12rem] w-full overflow-hidden rounded-xl">
       <Image
         width={768}
         height={768}
@@ -20,7 +20,7 @@ function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
       <div className="absolute inset-0 h-full w-full bg-black/70" />
-      <CardBody className="relative flex flex-col justify-between">
+      <div className="relative flex flex-col justify-between p-4">
         <Icon className="h-8 w-8 text-white" />
         <div>
           <Typography variant="h5" className="mb-1" color="white">
@@ -30,8 +30,8 @@ function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {
             {desc}
           </Typography>
         </div>
-      </CardBody>
-    </Card>
+      </div>
+    </section>
   );
 }
 export default CategoryCard;

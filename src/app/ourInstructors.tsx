@@ -1,10 +1,10 @@
 "use client";
-import FeedbackCard from "@/components/feedback-card";
-import FEEDBACKS from "@/data/feedbacks";
+import InstructorCard from "@/components/instructorCard";
+import Instructors from "@/data/instructors";
 
 export function OurInstructors() {
   return (
-    <section className="px-8 pt-36">
+    <section className="px-8 pt-20">
       <div className="container mx-auto">
         <div className="mb-16 flex flex-col items-center w-full">
           <h1 className="mb-2 text-4xl font-semibold lg:text-center">
@@ -17,8 +17,8 @@ export function OurInstructors() {
           </h2>
         </div>
         <div className="grid gap-x-8 gap-y-12 lg:px-32 grid-cols-1 md:grid-cols-3">
-          {FEEDBACKS.map((props, key) => (
-            <FeedbackCard key={key} {...props} />
+          {Instructors.map((props, key) => (
+            <InstructorCard key={key} {...props} />
           ))}
         </div>
       </div>

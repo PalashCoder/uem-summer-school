@@ -7,7 +7,7 @@ const COMPANIES = ["Uemk", "Cryptappz", "IemLabs"];
 
 function PartnerCompanies() {
   return (
-    <section className="py-8 px-8 lg:py-20">
+    <section className="py-8 px-8 lg:py-10">
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
           <h6 className="mb-4 uppercase !text-gray-500 font-semibold">
@@ -27,6 +27,7 @@ function PartnerCompanies() {
               }
               target="_blank"
               rel="noopener noreferrer"
+              key={key}
             >
               <Image
                 width={768}
