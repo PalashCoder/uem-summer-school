@@ -4,7 +4,7 @@ import CoursesCategories from "./CoursesCategories";
 import Hero from "./Hero";
 import OurInstructors from "./OurInstructors";
 import PartnerCompanies from "./PartnerCompanies";
-import Stats from "./Stats.tsx";
+import Stats from "./Stats";
 
 export default function Campaign() {
   return (
