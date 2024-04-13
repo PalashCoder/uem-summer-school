@@ -1,6 +1,6 @@
 "use client";
 
-import CategoryCard from "@/components/categoryCard";
+import CategoryCard from "@/components/CategoryCard";
 import CATEGORIES from "@/data/categories";
 
 export function CoursesCategories() {
@@ -23,7 +23,7 @@ export function CoursesCategories() {
             <h1 className="my-2 text-white text-base">
               Dr. Arnab Paul, Mr. Deepjyoti Roy & Prof. (Dr.) Ramen Pal
             </h1>
-            <button className="px-2 py-1 bg-white text-black rounded-sm mt-5 font-semibold">
+            <button className="px-3 py-1 bg-white text-black rounded-lg mt-5 font-semibold">
               Enroll Now
             </button>
           </div>

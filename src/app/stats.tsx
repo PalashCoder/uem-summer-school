@@ -1,6 +1,6 @@
 "use client";
 
-import StatsCard from "@/components/statsCard";
+import StatsCard from "@/components/StatsCard";
 import STATS from "@/data/stats";
 
 export function Stats() {

@@ -1,13 +1,5 @@
-import React from "react";
+import { CategoryCardProps } from "@/interface";
 import Image from "next/image";
-import { Card, CardBody, Typography } from "@material-tailwind/react";
-
-interface CategoryCardProps {
-  img: string;
-  title: string;
-  desc: string;
-  icon: React.ElementType;
-}
 
 function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {
   return (
@@ -23,12 +15,8 @@ function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {
       <div className="relative flex flex-col justify-between p-4">
         <Icon className="h-8 w-8 text-white" />
         <div>
-          <Typography variant="h5" className="mb-1" color="white">
-            {title}
-          </Typography>
-          <Typography color="white" className="text-xs font-bold opacity-50">
-            {desc}
-          </Typography>
+          <h1 className="mb-1 text-white font-semibold">{title}</h1>
+          <h2 className="text-xs font-bold opacity-70 text-white">{desc}</h2>
         </div>
       </div>
     </section>

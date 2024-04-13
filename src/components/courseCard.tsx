@@ -1,82 +1,39 @@
-import {
-  Typography,
-  Card,
-  CardBody,
-  CardHeader,
-  Button,
-} from "@material-tailwind/react";
+import { CourseCardProps } from "@/interface";
 import Image from "next/image";
-
-interface CourseCardProps {
-  img: string;
-  tag: string;
-  title: string;
-  desc: string;
-  label: string;
-  days: string;
-  time: string;
-  mode: string;
-  seat: string;
-  duration: string;
-}
 
 export function CourseCard({
   img,
-  tag,
+  instructor,
   title,
-  desc,
-  label,
-  time,
-  days,
-  mode,
-  seat,
-  duration,
+  ...others
 }: CourseCardProps) {
   return (
-    <Card className="border">
-      <CardHeader className="h-64">
+    <section className="border rounded-2xl">
+      <div className="h-64 w-[80%] md:ml-10 ml-7">
         <Image
           width={768}
           height={768}
           src={img}
           alt={title}
-          className="h-full w-full object-cover scale-[1.1]"
+          className="h-full w-full object-cover scale-[1.1] rounded-2xl"
         />
-      </CardHeader>
-      <CardBody>
-        <div className="flex items-center gap-2">
-          <Typography
-            variant="small"
-            color="blue"
-            className="mb-2 font-normal text-gray-500"
-          >
-            {tag}
-          </Typography>
+      </div>
+      <div>
+        <div className="flex items-center gap-2 p-4 my-2 mx-2.5">
+          <h1 className="mb-2 font-normal text-gray-500">{instructor}</h1>
         </div>
-        <Typography variant="h5" className="mb-2 normal-case">
-          {title}
-        </Typography>
-        <Typography className="mb-1 font-normal !text-gray-500">
-          {duration}
-        </Typography>
-        <Typography className="mb-1 font-normal !text-gray-500">
-          {desc}
-        </Typography>
-        <Typography className="mb-1 font-normal !text-gray-500">
-          {time}
-        </Typography>
-        <Typography className="mb-1 font-normal !text-gray-500">
-          {days}
-        </Typography>
-        <Typography className="mb-1 font-normal !text-gray-500">
-          {mode}
-        </Typography>
-        <Typography className="mb-5 font-normal !text-gray-500">
-          {seat}
-        </Typography>
-        <Button variant="outlined">{label}</Button>
-      </CardBody>
-    </Card>
+        <h2 className="mb-2 normal-case mx-5 font-semibold text-xl">{title}</h2>
+        {[...Object.entries(others)].map(([key, value], index) => (
+          <h3 className="mb-2 normal-case mx-5 text-gray-700" key={index}>
+            {" "}
+            {value}
+          </h3>
+        ))}
+        <button className="m-5 bg-gray-800 hover:bg-black font-semibold px-3 py-2 rounded-lg text-sm text-white">
+          More Information
+        </button>
+      </div>
+    </section>
   );
 }
 

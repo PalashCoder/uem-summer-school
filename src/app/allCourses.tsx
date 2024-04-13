@@ -1,6 +1,6 @@
 "use client";
 
-import CourseCard from "@/components/courseCard";
+import CourseCard from "@/components/CourseCard";
 import COURSES from "@/data/courses";
 
 export function AllCourses() {

@@ -1,10 +1,10 @@
 import { Footer, Navbar } from "@/components";
-import AllCourses from "./allCourses";
-import CoursesCategories from "./coursesCategories";
-import Hero from "./hero";
-import OurInstructors from "./ourInstructors";
-import PartnerCompanies from "./partnerCompanies";
-import Stats from "./stats";
+import AllCourses from "./AllCourses";
+import CoursesCategories from "./CoursesCategories";
+import Hero from "./Hero";
+import OurInstructors from "./OurInstructors";
+import PartnerCompanies from "./PartnerCompanies";
+import Stats from "./Stats.tsx";
 
 export default function Campaign() {
   return (
