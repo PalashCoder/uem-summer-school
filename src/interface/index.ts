@@ -8,7 +8,6 @@ export interface CourseCardProps {
   mode: string;
   seat: string;
   duration: string;
-  label: string;
 }
 
 export interface CategoryCardProps {
@@ -20,9 +19,8 @@ export interface CategoryCardProps {
 
 export interface InstructorCardProps {
   img: string;
-  feedback: string;
-  client: string;
-  title: string;
+  Instructor: string;
+  Designation: string;
 }
 
 export interface StatsCardProps {

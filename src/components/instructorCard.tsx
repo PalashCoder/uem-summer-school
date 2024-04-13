@@ -3,9 +3,8 @@ import Image from "next/image";
 
 export function InstructorCard({
   img,
-  feedback,
-  client,
-  title,
+  Instructor,
+  Designation,
 }: InstructorCardProps) {
   return (
     <section className="items-start text-center max-w-xl">
@@ -17,12 +16,9 @@ export function InstructorCard({
           width={100}
           height={100}
         />
-        <h1 color="blue-gray">{client}</h1>
+        <h1 color="blue-gray">{Instructor}</h1>
         <h1 color="blue-gray" className="mt-1 mb-5 block font-normal">
-          {title}
-        </h1>
-        <h1 className="mb-6 font-normal text-gray-500">
-          &quot;{feedback}&quot;
+          {Designation}
         </h1>
       </div>
     </section>
