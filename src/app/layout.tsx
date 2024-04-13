@@ -1,4 +1,3 @@
-import { Layout } from "@/components";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
@@ -23,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <Layout>{children}</Layout>
+        {children}
       </body>
     </html>
   );
