@@ -1,21 +1,21 @@
 import { Navbar, Footer } from "@/components";
 import Hero from "./hero";
-import OutImpressiveStats from "./out-impressive-stats";
-import CoursesCategories from "./courses-categories";
-import ExploreCourses from "./explore-courses";
-import StudentsFeedback from "./students-feedback";
-import TrustedCompany from "./trusted-companies";
+import Stats from "./stats";
+import CoursesCategories from "./coursesCategories";
+import AllCourses from "./allCourses";
+import OurInstructors from "./ourInstructors";
+import PartnerCompanies from "./partnerCompanies";
 
 export default function Campaign() {
   return (
     <>
       <Navbar />
       <Hero />
-      <OutImpressiveStats />
+      <Stats />
       <CoursesCategories />
-      <ExploreCourses />
-      <StudentsFeedback />
-      <TrustedCompany />
+      <AllCourses />
+      <OurInstructors />
+      <PartnerCompanies />
       <Footer />
     </>
   );
