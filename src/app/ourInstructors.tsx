@@ -1,5 +1,5 @@
 "use client";
-import InstructorCard from "@/components/InstructorCard";
+import InstructorCard from "@/components/InstructorCard.tsx";
 import Instructors from "@/data/instructors";
 
 export function OurInstructors() {

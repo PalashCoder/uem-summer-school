@@ -1,4 +1,5 @@
-import { Footer, Navbar } from "@/components";
+import { Footer } from "@/components/Footer.tsx";
+import { Navbar } from "@/components/Navbar.tsx";
 import AllCourses from "./AllCourses";
 import CoursesCategories from "./CoursesCategories";
 import Hero from "./Hero";

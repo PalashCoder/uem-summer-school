@@ -1,6 +1,6 @@
 "use client";
 
-import StatsCard from "@/components/StatsCard";
+import StatsCard from "@/components/StatsCard.tsx";
 import STATS from "@/data/stats";
 
 export function Stats() {
