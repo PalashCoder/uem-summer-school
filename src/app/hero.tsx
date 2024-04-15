@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -32,15 +32,7 @@ function Hero() {
                 Enroll
               </button>
               <button className="border-solid border-[1px] border-gray-900 font-semibold md:text-lg px-2 py-2 rounded-xl text-sm">
-                <Link
-                  to="courses"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={1000}
-                >
-                  Explore courses
-                </Link>
+                <Link href="#Courses">Explore courses</Link>
               </button>
             </div>
           </div>

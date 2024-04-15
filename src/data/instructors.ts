@@ -1,11 +1,11 @@
 const Instructors = [
   {
-    Instructor: "Jessica Devis",
+    Instructor: "Ramen Si",
     Designation: "Web Developer @ MARKETING DIGITAL LTD.",
     img: "/image/uem.png",
   },
   {
-    Instructor: "Linde Michel",
+    Instructor: "Srishti Ma'am",
     Designation: "Web Developer @ APPLE INC.",
     img: "/image/uem.png",
   },
