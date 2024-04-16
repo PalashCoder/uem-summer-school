@@ -1,11 +1,11 @@
 "use client";
 
 import CourseCard from "@/components/Cards/CourseCard";
-import COURSES from "@/data/courses";
+import COURSES from "@/data/courses.data";
 
 export function AllCourses() {
   return (
-    <section className="px-8" id="Courses">
+    <section className="px-8 pt-20" id="Courses">
       <div className="container mx-auto mb-24 text-center">
         <h1 className="mb-3 text-4xl font-bold">All Courses</h1>
         <h2 className="mx-auto mb-24 w-full !text-gray-500 lg:w-6/12 text-xl">

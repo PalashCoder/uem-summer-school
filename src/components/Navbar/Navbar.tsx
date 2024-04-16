@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-const nav = ["Home", "About", "Contact", "Courses", "Instructors", "Partners"];
+import Nav from "@/data/nav.data";
 
 export function Navbar() {
   return (
@@ -22,11 +21,9 @@ export function Navbar() {
             </center>
           </div>
           <div className="flex flex-1 max-md:hidden gap-14 font-medium mt-5 justify-end mr-10">
-            {nav.map((item, index) => (
+            {Nav.map((item, index) => (
               <div key={index} className="hover:font-semibold">
-                <Link href={`#${item}`} scroll={true}>
-                  {item}
-                </Link>
+                <Link href={`${item.link}`}>{item.nav}</Link>
               </div>
             ))}
           </div>

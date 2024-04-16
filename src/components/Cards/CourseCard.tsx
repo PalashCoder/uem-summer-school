@@ -29,9 +29,14 @@ export function CourseCard({
             {value}
           </h3>
         ))}
-        <button className="m-5 bg-gray-800 hover:bg-black font-semibold px-3 py-2 rounded-lg text-sm text-white">
-          More Information
-        </button>
+        <div>
+          <button className="m-4 border-solid border-[1px] text-black border-gray-900 hover:bg-black font-semibold px-3 py-2 rounded-lg text-sm hover:text-white">
+            More Information
+          </button>
+          <button className="bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white">
+            Enroll Here!
+          </button>
+        </div>
       </div>
     </section>
   );

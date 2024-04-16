@@ -28,10 +28,10 @@ function Hero() {
               May 2024 - June 2024
             </h3>
             <div className="my-8 flex justify-center gap-4 lg:justify-start">
-              <button className="bg-blue-700 text-white font-semibold md:text-lg px-4 py-2 rounded-xl text-sm">
+              <button className="bg-blue-700 hover:bg-blue-800 text-white font-semibold md:text-lg px-4 py-2 rounded-xl text-sm">
                 Enroll
               </button>
-              <button className="border-solid border-[1px] border-gray-900 font-semibold md:text-lg px-2 py-2 rounded-xl text-sm">
+              <button className="hover:bg-gray-700 hover:text-white border-solid border-[1px] border-gray-900 font-semibold md:text-lg px-2 py-2 rounded-xl text-sm">
                 <Link href="#Courses">Explore courses</Link>
               </button>
             </div>

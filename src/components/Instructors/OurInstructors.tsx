@@ -1,10 +1,10 @@
 "use client";
 import InstructorCard from "@/components/Cards/InstructorCard";
-import Instructors from "@/data/instructors";
+import Instructors from "@/data/instructors.data";
 
 export function OurInstructors() {
   return (
-    <section className="px-8 pt-20">
+    <section className="px-8 pt-20" id="Instructors">
       <div className="container mx-auto">
         <div className="mb-16 flex flex-col items-center w-full">
           <h1 className="mb-2 text-4xl font-semibold lg:text-center">
