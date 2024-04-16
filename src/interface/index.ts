@@ -22,6 +22,7 @@ export interface InstructorCardProps {
   img: string;
   Instructor: string;
   Designation: string;
+  Company: string;
 }
 
 export interface StatsCardProps {

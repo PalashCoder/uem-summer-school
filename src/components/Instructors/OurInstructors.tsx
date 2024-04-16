@@ -1,10 +1,17 @@
 "use client";
 import InstructorCard from "@/components/Cards/InstructorCard";
 import Instructors from "@/data/instructors.data";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export function OurInstructors() {
   return (
-    <section className="px-8 pt-20" id="Instructors">
+    <section className="px-10 pt-20" id="Instructors">
       <div className="container mx-auto">
         <div className="mb-16 flex flex-col items-center w-full">
           <h1 className="mb-2 text-4xl font-semibold lg:text-center">
@@ -16,10 +23,24 @@ export function OurInstructors() {
             take our word for it.
           </h2>
         </div>
-        <div className="grid gap-x-8 gap-y-12 lg:px-32 grid-cols-1 md:grid-cols-3">
-          {Instructors.map((props, key) => (
-            <InstructorCard key={key} {...props} />
-          ))}
+        <div className="w-full">
+          <Carousel
+            opts={{
+              align: "start",
+            }}
+          >
+            <CarouselContent className="w-full">
+              {Instructors.map((props, key) => (
+                <CarouselItem key={key} className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <InstructorCard key={key} {...props} />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </div>
       </div>
     </section>
