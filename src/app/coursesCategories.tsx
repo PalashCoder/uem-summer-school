@@ -1,6 +1,6 @@
 "use client";
 
-import CategoryCard from "@/components/CategoryCard.tsx";
+import CategoryCard from "@/components/Cards/CategoryCard";
 import CATEGORIES from "@/data/categories";
 
 export function CoursesCategories() {

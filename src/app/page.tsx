@@ -1,5 +1,5 @@
-import Footer from "../components/Footer.tsx";
-import Navbar from "../components/Navbar.tsx";
+import Footer from "../components/Footer/Footer.tsx";
+import Navbar from "../components/Navbar/Navbar.tsx";
 import AllCourses from "./AllCourses.tsx";
 import CoursesCategories from "./CoursesCategories.tsx";
 import Hero from "./Hero.tsx";
