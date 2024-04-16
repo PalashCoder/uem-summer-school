@@ -5,7 +5,7 @@ import STATS from "@/data/stats.data";
 
 export function Stats() {
   return (
-    <section className="px-8 pt-60 mt-36">
+    <section className="px-8 py-20">
       <div className="container mx-auto text-center lg:text-left">
         <div className="grid place-items-center text-center">
           <h1 className="mb-2 text-4xl font-semibold">

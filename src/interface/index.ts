@@ -2,6 +2,7 @@ export interface CourseCardProps {
   img: string;
   instructor: string;
   title: string;
+  link: string;
   desc: string;
   days: string;
   time: string;

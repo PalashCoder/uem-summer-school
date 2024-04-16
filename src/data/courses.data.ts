@@ -9,6 +9,7 @@ const COURSES = [
     time: "Time: 11 am - 1 pm",
     mode: "Mode of Conduction: Online",
     seat: "Seats: 30",
+    link: "/resources/AI based Recommendation System.pdf",
   },
   {
     img: "/image/uem.png",
@@ -20,6 +21,7 @@ const COURSES = [
     time: "Time: 11 am - 1 pm",
     mode: "Mode of Conduction: Online",
     seat: "Seats: 30",
+    link: "/resources/AI based Recommendation System.pdf",
   },
   {
     img: "/image/uem.png",
@@ -31,6 +33,7 @@ const COURSES = [
     time: "Time: 11 am - 1 pm",
     mode: "Mode of Conduction: Online",
     seat: "Seats: 30",
+    link: "/resources/AI based Recommendation System.pdf",
   },
   {
     img: "/image/uem.png",
@@ -42,6 +45,7 @@ const COURSES = [
     time: "Time: 11 am - 1 pm",
     mode: "Mode of Conduction: Online",
     seat: "Seats: 30",
+    link: "/resources/AI based Recommendation System.pdf",
   },
   {
     img: "/image/uem.png",
@@ -54,6 +58,7 @@ const COURSES = [
     time: "Time: 11 am-1 pm & 2 pm-3 pm",
     mode: "Mode of Conduction: Hybrid/Online",
     seat: "Seats: 30",
+    link: "/resources/AI based Recommendation System.pdf",
   },
 ];
 

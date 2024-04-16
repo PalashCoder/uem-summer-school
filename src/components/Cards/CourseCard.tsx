@@ -1,10 +1,12 @@
 import { CourseCardProps } from "@/interface";
 import Image from "next/image";
+import Link from "next/link";
 
 export function CourseCard({
   img,
   instructor,
   title,
+  link,
   ...others
 }: CourseCardProps) {
   return (
@@ -29,10 +31,14 @@ export function CourseCard({
             {value}
           </h3>
         ))}
-        <div>
-          <button className="m-4 border-solid border-[1px] text-black border-gray-900 hover:bg-black font-semibold px-3 py-2 rounded-lg text-sm hover:text-white">
+        <div className="mb-4">
+          <Link
+            href={link}
+            target="_blank"
+            className="m-4 border-solid border-[1px] text-black border-gray-900 hover:bg-black font-semibold px-3 py-2 rounded-lg text-sm hover:text-white"
+          >
             More Information
-          </button>
+          </Link>
           <button className="bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white">
             Enroll Here!
           </button>
