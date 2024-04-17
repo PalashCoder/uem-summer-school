@@ -11,7 +11,7 @@ export function CourseCard({
 }: CourseCardProps) {
   return (
     <section className="border rounded-2xl">
-      <div className="h-64 w-[80%] md:ml-10 ml-7">
+      <div className="h-64 w-[80%] md:ml-10 mx-7">
         <Image
           width={768}
           height={768}
