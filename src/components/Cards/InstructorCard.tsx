@@ -1,5 +1,5 @@
-import { InstructorCardProps } from "@/interface";
 import Image from "next/image";
+import { InstructorCardProps } from "@/interface";
 
 export function InstructorCard({
   img,
@@ -8,21 +8,23 @@ export function InstructorCard({
   Company,
 }: InstructorCardProps) {
   return (
-    <section className="items-start text-center max-w-xl">
-      <center className="border-[1px] border-black pt-5 rounded-xl hover:shadow-xl">
+    <div className="card w-96 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer">
+      <figure className="px-5 pt-4">
         <Image
           src={img}
-          className="mb-2 rounded-md h-[250px] w-[250px]"
-          alt="image"
-          width={100}
-          height={100}
+          alt={`Instructor image`}
+          height={1000}
+          width={1000}
+          className="rounded-xl object-cover"
+          priority={true}
         />
-        <h1 className="font-semibold">{Instructor}</h1>
-        <h1 className="mt-1 block font-normal">{Designation}</h1>
-        <div className="border-b-[1px] border-gray-700" />
-        <h1 className="mt-1 mb-5 block font-normal px-2">{Company}</h1>
-      </center>
-    </section>
+      </figure>
+      <div className="card-body items-center text-center">
+        <h2 className="card-title font-bold pt-4">{Instructor}</h2>
+        <p className="pb-4">{Designation}</p>
+        <p className="pb-4">{Company}</p>
+      </div>
+    </div>
   );
 }
 export default InstructorCard;
