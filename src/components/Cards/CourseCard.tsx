@@ -31,7 +31,7 @@ export function CourseCard({
             {value}
           </h3>
         ))}
-        <div className="mb-4">
+        <div className="mb-4 flex">
           <Link
             href={link}
             target="_blank"
@@ -39,7 +39,7 @@ export function CourseCard({
           >
             More Information
           </Link>
-          <button className="bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white">
+          <button className="my-4 bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white">
             Enroll Here!
           </button>
         </div>
