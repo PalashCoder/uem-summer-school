@@ -4,11 +4,11 @@ import Nav from "@/data/nav.data";
 
 export function Navbar() {
   return (
-    <div className="sticky top-0 z-50 bg-white/70 p-2 backdrop-blur-lg border-b border-gray-300 shadow-lg shadow-black/10">
-      <div className="my-auto container min-w-md">
+    <div className="sticky top-0 z-50 bg-white p-2-lg border-b border-gray-300 shadow-lg shadow-black/10">
+      <div className="my-auto container min-w-md py-2">
         <nav className="z-50 relative flex w-full ">
           <div className="ml-10">
-            <center>
+            <div className="item-center">
               <Link href="/">
                 <Image
                   src="/logos/Uemk.png"
@@ -18,7 +18,7 @@ export function Navbar() {
                   alt="UEMK Logo"
                 />
               </Link>
-            </center>
+            </div>
           </div>
           <div className="flex flex-1 max-md:hidden gap-14 font-medium mt-3 justify-end mr-10">
             {Nav.map((item, index) => (
