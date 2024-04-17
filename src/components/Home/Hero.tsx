@@ -16,7 +16,7 @@ function Hero() {
       />
       <div className="container mx-auto mt-48">
         <div className="grid grid-cols-12 text-center lg:text-left">
-          <div className="mt-20 col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
+          <div className="mt-20 col-span-full rounded-xl border border-white bg-white py-10 p-8 shadow-lg shadow-black/10 xl:col-span-7">
             <h1 className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl font-semibold">
               Summer School 2024
             </h1>
