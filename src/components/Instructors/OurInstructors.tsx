@@ -12,7 +12,7 @@ import {
 export function OurInstructors() {
   return (
     <section className="px-10 pt-20" id="Instructors">
-      <div className="container mx-auto">
+      <div className="container mx-auto text-center">
         <div className="mb-16 flex flex-col items-center w-full">
           <h1 className="mb-2 text-4xl font-semibold lg:text-center">
             Our Indusrty expert Instructors

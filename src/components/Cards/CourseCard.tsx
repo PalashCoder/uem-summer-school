@@ -11,7 +11,7 @@ export function CourseCard({
 }: CourseCardProps) {
   return (
     <section className="border rounded-2xl">
-      <div className="h-64 w-[80%] md:ml-10 mx-7">
+      <div className="h-64 w-[80%] md:ml-10 ml-7">
         <Image
           width={768}
           height={768}
@@ -39,7 +39,7 @@ export function CourseCard({
           >
             More Information
           </Link>
-          <button className="my-4 bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white">
+          <button className="my-4 mr-2 bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white">
             Enroll Here!
           </button>
         </div>
