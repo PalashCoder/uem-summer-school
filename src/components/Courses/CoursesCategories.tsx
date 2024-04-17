@@ -2,6 +2,7 @@
 
 import CategoryCard from "@/components/Cards/CategoryCard";
 import CATEGORIES from "@/data/categories.data";
+import Link from "next/link";
 
 export function CoursesCategories() {
   return (
@@ -24,7 +25,10 @@ export function CoursesCategories() {
               Dr. Arnab Paul, Mr. Deepjyoti Roy & Prof. (Dr.) Ramen Pal
             </h1>
             <button className="px-3 py-1 hover:bg-gray-700 hover:text-white hover:border-[1px] hover:border-white bg-white text-black rounded-lg mt-5 font-semibold">
-              Enroll Now
+              <Link href={"/resources/Course_Structure.pdf"} target="_blank">
+                {" "}
+                Course Structure
+              </Link>
             </button>
           </div>
         </div>

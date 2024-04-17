@@ -9,7 +9,7 @@ const COURSES = [
     time: "Time: 11 am - 1 pm",
     mode: "Mode of Conduction: Online",
     seat: "Seats: 30",
-    link: "/resources/AI based Recommendation System.pdf",
+    link: "/resources/Lesson Plan for Fundamentals of Industrial IoT (IIoT).pdf",
   },
   {
     img: "/image/uem.png",
@@ -45,7 +45,7 @@ const COURSES = [
     time: "Time: 11 am - 1 pm",
     mode: "Mode of Conduction: Online",
     seat: "Seats: 30",
-    link: "/resources/AI based Recommendation System.pdf",
+    link: "/resources/Final Lesson Plan for Fundamentals of Computer Forensics.pdf",
   },
   {
     img: "/image/uem.png",
