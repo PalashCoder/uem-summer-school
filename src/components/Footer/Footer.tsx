@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="px-8 py-8 mt-20">
       <center className="container max-w-6xl flex flex-col mx-auto">
         <h1 className="md:text-center mt-2 !text-gray-700 font-bold">
-          &copy; {CURRENT_YEAR} UEM-IEM Group
+          &copy; {CURRENT_YEAR} IEM, Kolkata under University of Engineering and Management
         </h1>
       </center>
     </footer>

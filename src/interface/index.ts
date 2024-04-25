@@ -9,6 +9,7 @@ export interface CourseCardProps {
   mode: string;
   seat: string;
   duration: string;
+  fees: string;
 }
 
 export interface CategoryCardProps {

@@ -31,7 +31,7 @@ export function OurInstructors() {
           >
             <CarouselContent className="w-full">
               {Instructors.map((props, key) => (
-                <CarouselItem key={key} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={key} className="md:basis-1/2 lg:basis-1/3 pl-4">
                   <div className="p-1">
                     <InstructorCard key={key} {...props} />
                   </div>

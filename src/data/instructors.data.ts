@@ -42,7 +42,7 @@ const Instructors = [
     Company: "London, UK",
   },
   {
-    Instructor: "Prof. Anirban Ganguly",
+    Instructor: "Prof. (Dr.) Anirban Ganguly",
     Designation: "Professor",
     img: "/image/uem.png",
     Company: "University of Engineering and Management, Kolkata",
