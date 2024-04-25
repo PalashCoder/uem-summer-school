@@ -9,9 +9,12 @@ export function CoursesCategories() {
     <section className="container mx-auto px-8 py-20">
       <div className="mb-20 grid place-items-center text-center">
         <h1 className="my-3 text-4xl font-semibold">Courses Categories</h1>
-        <h1 className="mx-auto w-full !text-gray-500 lg:w-6/12 text-xl">
-          A comprehensive selection of courses designed to empower you with the
-          skills you need to thrive in the world of knowledge.
+        <h1 className="mx-auto w-full !text-gray-500 lg:w-10/12 text-xl">
+          Embark on an unparalleled educational journey with our meticulously
+          curated courses, designed to cultivate critical thinking and
+          innovation for success in today's dynamic world. Explore a diverse
+          selection of industry-leading expertise, empowering you to thrive in
+          the global landscape of knowledge and innovation.
         </h1>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">

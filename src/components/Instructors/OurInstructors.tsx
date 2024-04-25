@@ -17,10 +17,13 @@ export function OurInstructors() {
           <h1 className="mb-2 text-4xl font-semibold lg:text-center">
             Our Indusrty expert Instructors
           </h1>
-          <h2 className="mb-10 max-w-3xl lg:text-center !text-gray-500 text-xl">
-            Our mission is to empower individuals with the knowledge and skills
-            they need to succeed in the world of technology. But don&apos;t just
-            take our word for it.
+          <h2 className="mb-5 lg:w-10/12 lg:text-center !text-gray-500 text-xl">
+            Central to our mission is the empowerment of individuals with the
+            indispensable knowledge and skills requisite for triumph in the
+            dynamic realm of technology. Yet, we urge you not to solely rely on
+            our declaration; instead, immerse yourself in our program and
+            witness the tangible outcomes firsthand, as guided by our esteemed
+            cadre of industry-leading instructors.
           </h2>
         </div>
         <div className="w-full">
@@ -31,7 +34,10 @@ export function OurInstructors() {
           >
             <CarouselContent className="w-full">
               {Instructors.map((props, key) => (
-                <CarouselItem key={key} className="md:basis-1/2 lg:basis-1/3 pl-4">
+                <CarouselItem
+                  key={key}
+                  className="md:basis-1/2 lg:basis-1/3 pl-4"
+                >
                   <div className="p-1">
                     <InstructorCard key={key} {...props} />
                   </div>
