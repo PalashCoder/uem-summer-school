@@ -15,7 +15,7 @@ export function InstructorCard({
           alt={`Instructor image`}
           height={1000}
           width={1000}
-          className="rounded-xl object-cover h-52 w-full"
+          className="rounded-xl object-cover lg:h-72 w-full"
           priority={true}
         />
       </figure>
