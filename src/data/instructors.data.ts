@@ -19,15 +19,27 @@ const Instructors = [
   },
   {
     Instructor: "Prof. (Dr.) Anirban Ganguly",
-    Designation: "Professor",
+    Designation: "Associate Professor",
     img: "/image/instructors/Prof. (Dr.) Anirban Ganguly.png",
-    Company: "University of Engineering and Management, Kolkata",
+    Company: "IEM Newtown Campus, UEMK",
   },
   {
     Instructor: "Mrs. Pooja Joshi",
-    Designation: "Senior Research Fellow,",
+    Designation: "Senior Research Fellow",
     img: "/image/instructors/Mrs. Pooja Joshi.png",
-    Company: "School of VLSI Technology, IIEST Shibpur, Howrah",
+    Company: "School of VLSI Technology, IIEST Shibpur",
+  },
+  {
+    Instructor: "Ms. Puja Chakraborty",
+    Designation: "Memory Circuit Design Engineer",
+    img: "/image/instructors/Ms. Puja Chakraborty.png",
+    Company: "DXCorr Design Inc",
+  },
+  {
+    Instructor: "Dr. Subhanil Maity",
+    Designation: "Senior Analog Circuit Design Engineer",
+    img: "/image/instructors/Dr. Subhanil Maity.png",
+    Company: "Cyient @Cadence", //updated
   },
   {
     Instructor: "Mr. Shehasis Banerjee",
