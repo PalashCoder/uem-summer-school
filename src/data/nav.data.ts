@@ -3,7 +3,7 @@ const nav = [
   { nav: "About", link: "#About" },
   { nav: "Courses", link: "#Courses" },
   { nav: "Course Structure", link: "/resources/Course_Structure.pdf" },
-  { nav: "Partners", link: "#Partners" },
+  { nav: "Instructors", link: "#Instructors" },
 ];
 
 export default nav;

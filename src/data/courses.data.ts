@@ -1,6 +1,6 @@
 const COURSES = [
   {
-    img: "/image/uem.png",
+    img: "/image/coursecategory/IIOT.jpeg",
     instructor: "Prof. Srishti Dey • Mr. Subhasis Chakraborty",
     title: "Fundamentals of Industrial IoT (IIoT)",
     desc: "Offered by: Department of CSE (AI & ML)",
@@ -13,7 +13,7 @@ const COURSES = [
     link: "/resources/Lesson Plan for Fundamentals of Industrial IoT (IIoT).pdf",
   },
   {
-    img: "/image/uem.png",
+    img: "/image/coursecategory/Ai.jpeg",
     instructor: "Dr. Arnab Paul • Mr. Deepjyoti Roy • Prof. (Dr.) Ramen Pal",
     title: "AI-based Recommendation System",
     desc: "Offered by: Department of CSE (AI & ML)",
@@ -26,7 +26,7 @@ const COURSES = [
     link: "/resources/AI based Recommendation System.pdf",
   },
   {
-    img: "/image/uem.png",
+    img: "/image/coursecategory/Forensic.jpeg",
     instructor: "Prof. Srishti Dey • Mr. Ajay Krishna N A",
     title: "Fundamental of Computer Forensics",
     desc: "Offered by: Department of CSE (AI & ML)",
@@ -39,7 +39,7 @@ const COURSES = [
     link: "/resources/Final Lesson Plan for Fundamentals of Computer Forensics.pdf",
   },
   {
-    img: "/image/uem.png",
+    img: "/image/coursecategory/Reinforcement.jpeg",
     instructor: "Mr. Shehasis Banerjee • Prof. (Dr.) Ramen Pal",
     title: "Exploring Reinforcement, Generative, and Deep Learning with Python",
     desc: "Offered by: IEDC of the Department of CSE (AI & ML)",
@@ -52,7 +52,7 @@ const COURSES = [
     link: "/resources/Exploring_Reinforcement,_Generative,_and_Deep_Learning_with_Python.pdf",
   },
   {
-    img: "/image/uem.png",
+    img: "/image/coursecategory/IMC.jpeg",
     instructor: "Prof. Anirban Ganguly • Mrs. Pooja Joshi",
     title:
       "Hands-on with InMemory Computing (IMC): A hardware level perspective",

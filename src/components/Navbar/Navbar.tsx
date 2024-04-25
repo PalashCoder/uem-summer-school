@@ -21,7 +21,7 @@ export function Navbar() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-1 max-md:hidden gap-14 font-medium mt-3 justify-end mr-10">
+          <div className="flex flex-1 max-md:hidden gap-10 font-medium mt-3 justify-end mr-10">
             {Nav.map((item, index) => (
               <div key={index} className="hover:font-semibold">
                 <Link href={`${item.link}`}>{item.nav}</Link>

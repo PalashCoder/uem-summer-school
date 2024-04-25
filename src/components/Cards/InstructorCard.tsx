@@ -8,14 +8,14 @@ export function InstructorCard({
   Company,
 }: InstructorCardProps) {
   return (
-    <div className="card w-96 max-md:w-60 bg-base-100 hover:shadow-xl border-[2px] gap-2 rounded-xl cursor-pointer">
+    <div className="card w-96 max-md:w-60 bg-base-100 hover:shadow-lg border-[2px] gap-2 rounded-xl cursor-pointer">
       <figure className="px-5 pt-4">
         <Image
           src={img}
           alt={`Instructor image`}
           height={1000}
           width={1000}
-          className="rounded-xl object-cover"
+          className="rounded-xl object-cover h-52 w-full"
           priority={true}
         />
       </figure>

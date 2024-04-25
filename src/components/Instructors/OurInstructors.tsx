@@ -32,11 +32,11 @@ export function OurInstructors() {
               align: "start",
             }}
           >
-            <CarouselContent className="w-full">
+            <CarouselContent className="w-full lg:pl-10">
               {Instructors.map((props, key) => (
                 <CarouselItem
                   key={key}
-                  className="md:basis-1/2 lg:basis-1/3 pl-4"
+                  className="md:basis-1/2 lg:basis-1/3 max-md:pl-6"
                 >
                   <div className="p-1">
                     <InstructorCard key={key} {...props} />

@@ -17,7 +17,7 @@ export function CourseCard({
           height={768}
           src={img}
           alt={title}
-          className="h-full w-full object-cover scale-[1.15] rounded-2xl"
+          className="h-60 w-full object-cover scale-[1.15] rounded-2xl"
         />
       </div>
       <div>
