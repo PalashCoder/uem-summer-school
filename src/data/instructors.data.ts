@@ -39,12 +39,12 @@ const Instructors = [
     Instructor: "Dr. Subhanil Maity",
     Designation: "Senior Analog Circuit Design Engineer",
     img: "/image/instructors/Dr. Subhanil Maity.png",
-    Company: "Cyient @Cadence", 
+    Company: "Cyient @Cadence",
   },
   {
     Instructor: "Mr. Ajay Kumar Chowdhary",
     Designation: "Staff Engineer, Synopsys",
-    img: "/image/instructors/Dr. Subhanil Maity.png",
+    img: "/image/instructors/Mr. Ajay Kumar Chowdhary.png",
     Company: "Industry Expert & Instructor", //updated
   },
   {
