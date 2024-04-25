@@ -12,7 +12,7 @@ export function CoursesCategories() {
         <h1 className="mx-auto w-full !text-gray-500 lg:w-10/12 text-xl">
           Embark on an unparalleled educational journey with our meticulously
           curated courses, designed to cultivate critical thinking and
-          innovation for success in today's dynamic world. Explore a diverse
+          innovation for success in today&apos;s dynamic world. Explore a diverse
           selection of industry-leading expertise, empowering you to thrive in
           the global landscape of knowledge and innovation.
         </h1>
