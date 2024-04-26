@@ -1,9 +1,57 @@
 const Instructors = [
   {
+    Instructor: "Dr. Debasish Chakraborty",
+    Designation: "Scientist (Ret.), SF & Head (Applications)",
+    img: "/image/instructors/Debasish Chakraborty.jpg",
+    Company: "RRSC-East, NRSC,ISRO",
+  },
+  {
+    Instructor: "Prof. (Dr.) Ramen Pal",
+    Designation: "Professor",
+    img: "/image/instructors/Prof. (Dr.) Ramen Pal.jpg",
+    Company: "UEM, Kolkata",
+  },
+  {
+    Instructor: "Mr. Ajay Kumar Chowdhary",
+    Designation: "Staff Engineer, Synopsys",
+    img: "/image/instructors/Mr. Ajay Kumar Chowdhary.png",
+    Company: "Industry Expert & Instructor",
+  },
+  {
+    Instructor: "Mr. Deepjyoti Roy",
+    Designation: "Researcher",
+    img: "/image/instructors/Mr. Deepjyoti Roy.jpg",
+    Company: "Assam University, Silchar",
+  },
+  {
+    Instructor: "Prof. Amit Kumar",
+    Designation: "Assistant Professor",
+    img: "/image/instructors/Prof. Amit Kumar.jpg",
+    Company: "UEM, Kolkata",
+  },
+  {
+    Instructor: "Prof. (Dr.) Kousik Dasgupta",
+    Designation: "Assistant Professor",
+    img: "/image/instructors/Koushik Dasgupta.jpg",
+    Company: "Kalyani Government Engineering College",
+  },
+  {
+    Instructor: "Prof. (Dr.) Prasenjit Dey",
+    Designation: "Assistant Professor",
+    img: "/image/instructors/Prasenjit Dey.jpg",
+    Company: "NIT Rourkela",
+  },
+  {
+    Instructor: "Prof. (Dr.) Paramartha Dutta",
+    Designation: "Professor",
+    img: "/image/instructors/Paramartha Dutta.jpg",
+    Company: "Visva Bharati University",
+  },
+  {
     Instructor: "Prof. Srishti Dey",
     Designation: "Professor",
     img: "/image/instructors/Srishti Dey.png",
-    Company: "University of Engineering and Management, Kolkata",
+    Company: "UEM, Kolkata",
   },
   {
     Instructor: "Mr. Subhasis Chakraborty",
@@ -42,34 +90,22 @@ const Instructors = [
     Company: "Cyient @Cadence",
   },
   {
-    Instructor: "Mr. Ajay Kumar Chowdhary",
-    Designation: "Staff Engineer, Synopsys",
-    img: "/image/instructors/Mr. Ajay Kumar Chowdhary.png",
-    Company: "Industry Expert & Instructor", //updated
-  },
-  {
     Instructor: "Mr. Shehasis Banerjee",
     Designation: "Lead Research Scientist",
-    img: "/image/uem.png",
+    img: "/image/instructors/Mr. Shehasis Banerjee.jpg",
     Company: "TCS Research",
   },
   {
-    Instructor: "Dr. Arnab Paul",
+    Instructor: "Mr. Soumya Mukherjee",
+    Designation: "Program Manager",
+    img: "/image/instructors/Soumya Mukherjee.jpg",
+    Company: "Accenture",
+  },
+  {
+    Instructor: "Prof.(Dr.) Arnab Paul",
     Designation: "Associate Professor",
-    img: "/image/uem.png",
+    img: "/image/instructors/Arnab Paul.jpg",
     Company: "Assam University, Silchar",
-  },
-  {
-    Instructor: "Mr. Deepjyoti Roy",
-    Designation: "Researcher",
-    img: "/image/uem.png",
-    Company: "Assam University, Silchar",
-  },
-  {
-    Instructor: "Prof. (Dr.) Ramen Pal",
-    Designation: "Professor",
-    img: "/image/uem.png",
-    Company: "University of Engineering and Management, Kolkata",
   },
 ];
 

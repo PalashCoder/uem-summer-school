@@ -20,9 +20,9 @@ export function InstructorCard({
         />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title font-bold pt-4">{Instructor}</h2>
-        <p className="pb-4">{Designation}</p>
-        <p className="pb-4">{Company}</p>
+        <h2 className="card-title font-bold pt-4 pb-3">{Instructor}</h2>
+        <p className="pb-1 text-gray-600 font-semibold">{Designation}</p>
+        <p className="pb-4 font-semibold">{Company}</p>
       </div>
     </div>
   );
