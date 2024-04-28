@@ -9,7 +9,7 @@ const About = () => {
           About Us
         </h6>
         <h1 className="text-2xl font-bold">
-          University Of Engineering and Management, Kolkata
+          University of Engineering and Management, Kolkata
         </h1>
         <div className="bg-white flex justify-between max-md:flex-wrap">
           <div>

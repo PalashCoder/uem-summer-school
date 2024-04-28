@@ -54,8 +54,7 @@ const COURSES = [
   {
     img: "/image/coursecategory/IMC.jpeg",
     instructor: "Prof. Anirban Ganguly • Mrs. Pooja Joshi",
-    title:
-      "Hands-on with InMemory Computing (IMC): A hardware level perspective",
+    title: "Memory Design and In-Memory Computing",
     desc: "Offered by: : Department of CST & CSIT in association with School of VLSI Technology, IIEST Shibpur",
     duration: "Duration: 29 May to 14 June",
     days: "Days: Wednesday & Sunday",

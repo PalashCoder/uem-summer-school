@@ -23,7 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={roboto.className}>
+      <body
+        className={`${roboto.className} bg-white text-gray-900 tracking-tight`}
+      >
         <Navbar />
         {children}
         <Main />
