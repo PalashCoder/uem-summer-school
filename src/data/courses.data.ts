@@ -62,7 +62,7 @@ const COURSES = [
     mode: "Mode of Conduction: Online",
     fees: "Fees: ₹ 4000 + 18% GST",
     seat: "Seats: 50 (Limited)",
-    link: "/resources/Hands-on with InMemory Computing (IMC) A hardware level perspective.pdf",
+    link: "/resources/Memory Design & In-Memory Computing.pdf",
   },
 ];
 
