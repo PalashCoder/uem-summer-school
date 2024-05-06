@@ -1,7 +1,7 @@
 const COURSES = [
   {
     img: "/image/coursecategory/IIOT.jpeg",
-    instructor: "Prof. Srishti Dey • Mr. Subhasis Chakraborty",
+    instructor: "Prof. Srishti Dey • Mr. Subhasis Chakraborty • Mr. Rishit Chakraborty",
     title: "Fundamentals of Industrial IoT (IIoT)",
     desc: "Offered by: Department of CSE (AI & ML)",
     duration: "Duration: May 17 - June 2",
@@ -27,7 +27,7 @@ const COURSES = [
   },
   {
     img: "/image/coursecategory/Forensic.jpeg",
-    instructor: "Prof. Srishti Dey • Mr. Ajay Krishna N A",
+    instructor: "Prof. Srishti Dey • Mr. Ajay Krishna N A • Mr. Samyajit Mukherjee • Mr. Sourav Patra",
     title: "Fundamental of Computer Forensics",
     desc: "Offered by: Department of CSE (AI & ML)",
     duration: "Duration: June 14 to June 23",

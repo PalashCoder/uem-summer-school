@@ -23,7 +23,7 @@ export function CoursesCategories() {
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
           <div className="relative w-full">
             <h1 className="my-5 text-xl text-white font-semibold">
-              AI-Based Recomendation System
+              AI-Based Recommendation System
             </h1>
             <h1 className="my-2 text-white text-base">
               Prof. (Dr.) Ramen Pal, Prof. Amit Kumar, Prof. (Dr.) Arnab Paul ,
