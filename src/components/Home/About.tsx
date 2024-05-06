@@ -11,7 +11,7 @@ const About = () => {
         <h1 className="text-2xl font-bold">
           University of Engineering and Management, Kolkata
         </h1>
-        <div className="bg-white flex justify-between max-md:flex-wrap">
+        <div className="bg-white flex justify-between max-sm:flex-wrap">
           <div>
             <p className="mt-4 max-w-5xl item-center text-justify md:mr-10">
               UEM Kolkata is established in the year 2014 by Act No 25 of 2014

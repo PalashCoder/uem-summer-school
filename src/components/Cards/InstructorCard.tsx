@@ -8,7 +8,8 @@ export function InstructorCard({
   Company,
 }: InstructorCardProps) {
   return (
-    <div className="card w-96 max-md:w-60 bg-base-100 hover:shadow-lg border-[2px] gap-2 rounded-xl cursor-pointer">
+    <center>
+      <div className="card w-96 max-md:w-52 bg-base-100 hover:shadow-lg border-[2px] gap-2 rounded-xl cursor-pointer">
       <figure className="px-5 pt-4">
         <Image
           src={img}
@@ -25,6 +26,7 @@ export function InstructorCard({
         <p className="pb-4 font-semibold">{Company}</p>
       </div>
     </div>
+    </center>
   );
 }
 export default InstructorCard;
