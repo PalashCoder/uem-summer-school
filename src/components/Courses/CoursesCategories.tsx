@@ -2,6 +2,7 @@
 
 import CategoryCard from "@/components/Cards/CategoryCard";
 import CATEGORIES from "@/data/categories.data";
+import Image from "next/image";
 import Link from "next/link";
 
 export function CoursesCategories() {
@@ -25,7 +26,9 @@ export function CoursesCategories() {
               AI-Based Recomendation System
             </h1>
             <h1 className="my-2 text-white text-base">
-              Dr. Arnab Paul, Mr. Deepjyoti Roy & Prof. (Dr.) Ramen Pal
+              Prof. (Dr.) Ramen Pal, Prof. Amit Kumar, Prof. (Dr.) Arnab Paul ,
+              Soumya Mukherjee, Mr. Deepjyoti Roy, Prof. (Dr.) Paramartha Dutta
+              & Dr. Debasish Chakraborty
             </h1>
             <button className="px-3 py-1 hover:bg-gray-700 hover:text-white hover:border-[1px] hover:border-white bg-white text-black rounded-lg mt-5 font-semibold">
               <Link href="#Courses"> Course Structure</Link>

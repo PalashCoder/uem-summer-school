@@ -22,17 +22,22 @@ function Hero() {
             </h1>
             <div>
               <h2 className="mb-2 mt-6 !text-gray-600 text-lg max-md:text-[16px] max-md:mt-3">
-                Unlock your potential this summer with the <span className="font-semibold">Exclusive Summer
-                School Program</span> at the University of Engineering and Management,
-                Kolkata.
+                Unlock your potential this summer with the{" "}
+                <span className="font-semibold">
+                  Exclusive Summer School Program
+                </span>{" "}
+                at the University of Engineering and Management, Kolkata.
               </h2>
               <h2 className="mb-2 mt-2 !text-gray-900 text-lg max-md:text-[16px]">
                 Immerse yourself in a dynamic learning environment.
               </h2>
               <h2 className="mb-5 mt-2 !text-gray-600 text-lg max-md:text-[16px] max-md:mt-3">
-                <span className="font-semibold">Don&apos;t miss this opportunity</span> to jumpstart your academic journey
-                and elevate your future prospects. Apply now to secure your
-                place and embark on a path to success.
+                <span className="font-semibold">
+                  Don&apos;t miss this opportunity
+                </span>{" "}
+                to jumpstart your academic journey and elevate your future
+                prospects. Apply now to secure your place and embark on a path
+                to success.
               </h2>
             </div>
             <h3 className="lg:text-2xl !leading-snug text-xl lg:max-w-2xl mb-5 font-semibold">

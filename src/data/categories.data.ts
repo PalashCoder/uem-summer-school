@@ -15,8 +15,8 @@ const CATEGORIES = [
   {
     img: "/image/coursecategory/Reinforcement.jpeg",
     icon: PuzzlePieceIcon,
-    title: "Reinforcement & Deep Learning Using Python",
-    desc: "Mr. Shehasis Banerjee & Prof. (Dr.) Ramen Pal",
+    title: "Exploring Reinforcement, Generative, and Deep Learning with Python",
+    desc: "Prof. (Dr.) Ramen Pal • Prof. Amit Kumar • Mr. Shehasis Banerjee • Soumya Mukherjee • Prof. (Dr.) Kousik Dasgupta • Prof. (Dr.) Prasenjit Dey",
   },
   {
     img: "/image/coursecategory/Forensic.jpeg",
@@ -27,7 +27,7 @@ const CATEGORIES = [
   {
     img: "/image/coursecategory/IMC.jpeg",
     icon: MicrophoneIcon,
-    title: "Hands-on with InMemory Computing (IMC) hardware level perspective.",
+    title: "Memory Design and In-Memory Computing",
     desc: "Prof. Anirban Ganguly & Mrs. Pooja Joshi",
   },
 ];

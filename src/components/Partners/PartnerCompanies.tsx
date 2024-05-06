@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const COMPANIES = ["Uemk", "Cryptappz", "IemLabs"];
+const COMPANIES = ["Uemk", "IemLabs"];
 
 function PartnerCompanies() {
   return (
