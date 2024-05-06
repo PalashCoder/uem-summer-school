@@ -12,9 +12,9 @@ export function CoursesCategories() {
         <h1 className="mx-auto w-full !text-gray-500 lg:w-10/12 text-xl">
           Embark on an unparalleled educational journey with our meticulously
           curated courses, designed to cultivate critical thinking and
-          innovation for success in today&apos;s dynamic world. Explore a diverse
-          selection of industry-leading expertise, empowering you to thrive in
-          the global landscape of knowledge and innovation.
+          innovation for success in today&apos;s dynamic world. Explore a
+          diverse selection of industry-leading expertise, empowering you to
+          thrive in the global landscape of knowledge and innovation.
         </h1>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -28,10 +28,7 @@ export function CoursesCategories() {
               Dr. Arnab Paul, Mr. Deepjyoti Roy & Prof. (Dr.) Ramen Pal
             </h1>
             <button className="px-3 py-1 hover:bg-gray-700 hover:text-white hover:border-[1px] hover:border-white bg-white text-black rounded-lg mt-5 font-semibold">
-              <Link href={"/resources/AI based Recommendation System.pdf"} target="_blank">
-                {" "}
-                Course Structure
-              </Link>
+              <Link href="#Courses"> Course Structure</Link>
             </button>
           </div>
         </div>
