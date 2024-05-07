@@ -15,7 +15,7 @@ export function AllCourses() {
           course that aligns perfectly with your aspirations and career goals.
         </h2>
       </div>
-      <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-24 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-14">
+      <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-24 md:grid-cols-2 lg:grid-cols-2 lg:gap-x-20">
         {COURSES.map((props, idx) => (
           <CourseCard key={idx} {...props} />
         ))}

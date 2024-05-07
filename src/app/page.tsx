@@ -1,4 +1,4 @@
-import CoursesCategories from "../components/Courses/CoursesCategories.tsx";
+// import CoursesCategories from "../components/Courses/CoursesCategories.tsx";
 import Hero from "../components/Home/Hero.tsx";
 import Stats from "../components/Home/Stats.tsx";
 import About from "../components/Home/About.tsx";
@@ -9,7 +9,7 @@ export default function Campaign() {
       <Hero />
       <About />
       <Stats />
-      <CoursesCategories />
+      {/* <CoursesCategories /> */}
     </>
   );
 }

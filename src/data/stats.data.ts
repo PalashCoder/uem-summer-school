@@ -13,12 +13,12 @@ const STATS = [
   // },
   {
     icon: UserIcon,
-    count: "15+",
+    count: "13",
     title: "Industry Recognized Instructors",
   },
   {
     icon: PencilSquareIcon,
-    count: "5",
+    count: "2",
     title: "Industry Leading Courses",
   },
   {

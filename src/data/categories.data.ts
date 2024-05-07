@@ -15,7 +15,7 @@ const CATEGORIES = [
   {
     img: "/image/coursecategory/Reinforcement.jpeg",
     icon: PuzzlePieceIcon,
-    title: "Exploring Reinforcement, Generative, and Deep Learning with Python",
+    title: "Exploring Reinforcement, Generative AI, and Deep Learning with Python",
     desc: "Prof. (Dr.) Ramen Pal • Prof. Amit Kumar • Mr. Shehasis Banerjee • Soumya Mukherjee • Prof. (Dr.) Kousik Dasgupta • Prof. (Dr.) Prasenjit Dey",
   },
   {
