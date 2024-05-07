@@ -23,7 +23,7 @@ const COURSES = [
     time: "Time: 11 am – 1:15 pm & 2 pm-4:15 pm",
     mode: "Mode of Conduction: Online",
     fees: "Fees: ₹ 3000 + 18% GST",
-    seat: "Seats: 50 (Limited)",
+    seat: "Seats: 30 (Limited)",
     link: "/resources/Memory Design & In-Memory Computing.pdf",
   },
   // {
@@ -51,7 +51,7 @@ const COURSES = [
     time: "Time: 11 am - 1 pm",
     mode: "Mode of Conduction: Online",
     fees: "Fees: ₹ 3000 + 18% GST",
-    seat: "Seats: 50 (Limited)",
+    seat: "Seats: 30 (Limited)",
     link: "/resources/Exploring_Reinforcement,_Generative,_and_Deep_Learning_with_Python.pdf",
   },
   // {

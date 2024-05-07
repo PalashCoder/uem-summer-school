@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
-const COMPANIES = ["Uemk", "IemLabs", "IETE", "CSI"];
+const COMPANIES = ["IETE", "IemLabs", "IEM","CSI"];
 
 function PartnerCompanies() {
   return (
