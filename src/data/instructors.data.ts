@@ -73,9 +73,15 @@ const Instructors = [
   },
   {
     Instructor: "Mrs. Pooja Joshi", //
-    Designation: "Senior Research Fellow",
+    Designation: "Staff Researcher, C2S Project",
     img: "/image/instructors/Mrs. Pooja Joshi.png",
-    Company: "School of VLSI Technology, IIEST Shibpur",
+    Company: "IIEST Shibpur",
+  },
+  {
+    Instructor: "Prof. (Dr.) Sudip Ghosh", //
+    Designation: "Assistant Professor",
+    img: "/image/instructors/Dr Sudip Ghosh.jpg",
+    Company: "School of VLSI Technology IIEST Shibpur",
   },
   {
     Instructor: "Ms. Puja Chakraborty", //
