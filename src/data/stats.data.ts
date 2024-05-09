@@ -13,7 +13,7 @@ const STATS = [
   // },
   {
     icon: UserIcon,
-    count: "15",
+    count: "14",
     title: "Industry Recognized Instructors",
   },
   {

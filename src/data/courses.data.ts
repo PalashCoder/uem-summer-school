@@ -42,7 +42,7 @@ const COURSES = [
   {
     img: "/image/coursecategory/Reinforcement.jpeg",
     instructor:
-      "Prof. (Dr.) Ramen Pal • Prof. (Dr.) Arnab Paul • Prof. Amit Kumar • Mr. Shehasis Banerjee • Mr. Soumya Mukherjee • Prof. (Dr.) Kousik Dasgupta • Prof. (Dr.) Prasenjit Dey • Prof. (Dr.) Paramartha Dutta • Dr. Debasish Chakraborty",
+      "Prof. (Dr.) Ramen Pal • Prof. (Dr.) Arnab Paul • Mr. Shehasis Banerjee • Mr. Soumya Mukherjee • Prof. (Dr.) Kousik Dasgupta • Prof. (Dr.) Prasenjit Dey • Prof. (Dr.) Paramartha Dutta • Dr. Debasish Chakraborty",
     title:
       "Exploring Reinforcement, Generative AI, and Deep Learning with Python",
     desc: "Offered by: IEDC of the Department of CSE (AI & ML)",

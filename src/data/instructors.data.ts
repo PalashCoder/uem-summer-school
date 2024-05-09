@@ -23,12 +23,12 @@ const Instructors = [
   //   img: "/image/instructors/Mr. Deepjyoti Roy.jpg",
   //   Company: "Assam University, Silchar",
   // },
-  {
-    Instructor: "Prof. Amit Kumar", //
-    Designation: "Assistant Professor",
-    img: "/image/instructors/Prof. Amit Kumar.jpg",
-    Company: "UEM, Kolkata",
-  },
+  // {
+  //   Instructor: "Prof. Amit Kumar",
+  //   Designation: "Assistant Professor",
+  //   img: "/image/instructors/Prof. Amit Kumar.jpg",
+  //   Company: "UEM, Kolkata",
+  // },
   {
     Instructor: "Prof. (Dr.) Kousik Dasgupta", //
     Designation: "Assistant Professor",
