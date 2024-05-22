@@ -9,7 +9,7 @@ export function InstructorCard({
 }: InstructorCardProps) {
   return (
     <center>
-      <div className="card w-96 max-md:w-52 bg-base-100 hover:shadow-lg border-[2px] gap-2 rounded-xl cursor-pointer">
+      <div className="card w-96 max-md:w-52 bg-base-100 hover:shadow-lg border-[2px] gap-2 rounded-xl cursor-pointer hover:scale-95 transition duration-300 ease-in-out">
         <figure className="px-5 pt-4">
           <Image
             src={img}

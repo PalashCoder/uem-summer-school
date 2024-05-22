@@ -35,12 +35,12 @@ export function CourseCard({
           <Link
             href={link}
             target="_blank"
-            className="m-4 border-solid border-[1px] text-black border-gray-900 hover:bg-black font-semibold px-3 py-2 rounded-lg text-sm hover:text-white"
+            className="m-4 border-solid border-[1px] text-black border-gray-900 hover:bg-black font-semibold px-3 py-2 rounded-lg text-sm hover:text-white hover:scale-95 transition duration-300 ease-in-out"
           >
             More Information
           </Link>
           <Link href={"https://forms.gle/k6ywpcVUUf7exvju9"} target="_blank">
-            <button className="my-4 mr-2 bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white">
+            <button className="my-4 mr-2 bg-blue-700 hover:bg-blue-800 font-semibold px-3 py-2 rounded-lg text-sm text-white hover:scale-95 transition duration-300 ease-in-out">
               Enroll Here!
             </button>
           </Link>
