@@ -10,7 +10,7 @@ export function Navbar() {
       <div className="my-auto container min-w-md py-2 flex">
         <nav className="z-50 relative flex w-full">
           <div>
-            <div className="flex items-center justify-center max-md:items-center max-md:px-10">
+            <div className="flex items-center justify-center max-md:items-center max-md:px-10 gap-1 md:gap-2">
               {COMPANIES.map((logo, key) => (
                 <Link href="/" key={key}>
                   <Image
