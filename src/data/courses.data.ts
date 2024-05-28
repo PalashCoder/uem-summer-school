@@ -25,7 +25,7 @@ const COURSES = [
     mode: "Mode of Conduction: Online",
     fees: "Fees: ₹ 3000 + 18% GST",
     seat: "Seats: 50 (Limited)",
-    // Last: "Last Date of Registration: 15th June",
+    Last: "Last Date of Registration: 15th June",
     link: "/resources/Exploring_Reinforcement,_Generative,_and_Deep_Learning_with_Python.pdf",
   },
   {
@@ -40,7 +40,7 @@ const COURSES = [
     mode: "Mode of Conduction: Online",
     fees: "Fees: ₹ 3000 + 18% GST",
     seat: "Seats: 30 (Limited)",
-    // Last: "Last Date of Registration: 15th June",
+    Last: "Last Date of Registration: 15th June",
     link: "/resources/Memory Design & In-Memory Computing.pdf",
   },
   // {

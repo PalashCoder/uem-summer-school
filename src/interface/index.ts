@@ -10,7 +10,7 @@ export interface CourseCardProps {
   seat: string;
   duration: string;
   fees: string;
-  // Last :string;
+  Last :string;
 }
 
 export interface CategoryCardProps {
