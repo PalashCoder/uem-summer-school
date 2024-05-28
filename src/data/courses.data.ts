@@ -34,7 +34,7 @@ const COURSES = [
       "Prof. Anirban Ganguly • Mrs. Pooja Joshi • Dr. Subhanil Maity • Ms. Puja Chakraborty • Mr. Ajay Chowdhury • Prof. (Dr.) Sudip Ghosh",
     title: "Memory Design & In-Memory Computing ",
     desc: "Offered by: : Department of CST & CSIT in association with School of VLSI Technology, IIEST Shibpur",
-    duration: "Duration: 29th May to 15th June",
+    duration: "Duration: 29th June to 10th July",
     days: "Days: TBA",
     time: "Time: 11 am – 1:15 pm & 2 pm-4:15 pm",
     mode: "Mode of Conduction: Online",
