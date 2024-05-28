@@ -24,7 +24,7 @@ export function CourseCard({
         <div className="flex items-center gap-2 p-4 my-2 mx-2.5">
           <h1 className="mb-2 font-normal text-gray-500">{instructor}</h1>
         </div>
-        <h2 className="mb-2 normal-case mx-5 font-semibold text-xl">{title}</h2>
+        <h2 className="mb-2 normal-case mx-5 font-semibold text-lg">{title}</h2>
         {[...Object.entries(others)].map(([key, value], index) => (
           <h3 className="mb-2 normal-case mx-5 text-gray-700" key={index}>
             {" "}
