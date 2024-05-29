@@ -41,7 +41,7 @@ function Hero() {
               </h2>
             </div>
             <h3 className="lg:text-2xl !leading-snug text-xl lg:max-w-2xl mb-5 font-semibold">
-              May 2024 - June 2024
+              June 2024 - July 2024
             </h3>
             <div className="my-8 flex justify-center gap-4 lg:justify-start">
               <button className="bg-blue-700 hover:bg-blue-800 text-white font-semibold md:text-lg px-4 py-2 rounded-xl text-sm hover:scale-95 transition duration-300 ease-in-out">
